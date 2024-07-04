@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/jenisPemasukan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Pemasukan 1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pemasukan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200.000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/jenisPemasukan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Pemasukan 2"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pemasukan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100.000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/jenisPemasukan3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Pemasukan 3"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pemasukan3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50.000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/totalPemasukan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: 350.000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itemTanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12-06-2024"
+        android:textSize="16sp" />
+
+</LinearLayout>

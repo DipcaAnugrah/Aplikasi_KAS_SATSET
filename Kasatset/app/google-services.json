@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "85933647360",
+    "project_id": "kasatset",
+    "storage_bucket": "kasatset.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85933647360:android:141002babf89999d611ae5",
+        "android_client_info": {
+          "package_name": "com.satset.kassatset"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIt3y42fdUP2BopYGi1jcXa7lgnmuNhHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

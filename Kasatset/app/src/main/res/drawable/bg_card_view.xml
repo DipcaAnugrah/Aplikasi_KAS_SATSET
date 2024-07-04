@@ -1,0 +1,17 @@
+<!-- cardview_pressed_effect.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!-- Ganti warna latar belakang yang diinginkan saat CardView ditekan -->
+            <solid android:color="#1D4866" />
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+    <item>
+        <!-- Warna latar belakang default saat tidak ditekan -->
+        <shape android:shape="rectangle">
+            <solid android:color="#008BD7EE" />\
+
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etEditNamaBulanTerakhir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Bulan Terakhir" />
+
+    <EditText
+        android:id="@+id/etEditSisaSaldoBulanTerakhir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sisa Saldo Bulan Terakhir"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etEditPemasukan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pemasukan"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etEditPengeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pengeluaran"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etEditNamaBulanSekarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Bulan Sekarang" />
+
+    <EditText
+        android:id="@+id/etEditSisaSaldoBulanSekarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sisa Saldo Bulan Sekarang"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>
